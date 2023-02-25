@@ -39877,6 +39877,14 @@ var map = {
 	"./Index.tsx": [
 		"./resources/js/Page/PinInput/Index.tsx",
 		"resources_js_Page_PinInput_Index_tsx"
+	],
+	"./PinInput": [
+		"./resources/js/Page/PinInput/PinInput.tsx",
+		"resources_js_Page_PinInput_PinInput_tsx"
+	],
+	"./PinInput.tsx": [
+		"./resources/js/Page/PinInput/PinInput.tsx",
+		"resources_js_Page_PinInput_PinInput_tsx"
 	]
 };
 function webpackAsyncContext(req) {
@@ -40027,7 +40035,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if (chunkId === "resources_js_Page_PinInput_Index_tsx") return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Page_PinInput_Index_tsx":1,"resources_js_Page_PinInput_PinInput_tsx":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
