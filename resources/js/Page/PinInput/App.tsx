@@ -26,7 +26,7 @@ export default function App() {
             <div className="mt-10">
                 <input
                     type="checkbox"
-                    defaultChecked={secretMode}
+                    checked={secretMode}
                     onChange={() => setSecretMode(!secretMode)}
                 />
                 <label>Secret mode</label>
